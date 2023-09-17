@@ -1,4 +1,4 @@
-# AutoTAMP
+# Multi-Agent-Framework
 Here we show the two examples on the single-agent environments: Chip Challenge and HouseWorld. The left codes and datasets are coming soon.
 
 ## Requirements
