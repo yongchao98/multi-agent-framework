@@ -268,7 +268,7 @@ def run_exp(Saving_path, pg_row_num, pg_column_num, iteration_num, query_time_li
 
 
 Code_dir_path = 'path_to_multi-agent-framework/multi-agent-framework/' # Put the current code directory path here
-Saving_path = Code_dir_path + 'Env2_BoxNet1'
+Saving_path = Code_dir_path + 'Env1_BoxNet1'
 model_name = 'gpt-4-0613'  #'gpt-4-0613', 'gpt-3.5-turbo-16k-0613'
 print(f'-------------------Model name: {model_name}-------------------')
 for pg_row_num, pg_column_num in [(2,2), (2,4), (4,4), (4,8)]:

@@ -207,6 +207,6 @@ def create_env1(Saving_path, repeat_num = 10):
         json.dump(pg_dict, f)
 
 Code_dir_path = 'path_to_multi-agent-framework/multi-agent-framework/' # Put the current code directory path here
-Saving_path = Code_dir_path + 'Env2_BoxNet1'
+Saving_path = Code_dir_path + 'Env1_BoxNet1'
 # The first time to create the environment, after that you can comment it
 create_env1(Saving_path, repeat_num = 10)
