@@ -20,10 +20,8 @@ Run the env1-box-arrange.py/env2-box-arrange.py/env3-box-arrange.py/env4-box-arr
 python env1-box-arrange.py
 ```
 
-For visualize the testing results, set up the Code_dir_path in line2, then run the script:
+The experimental results will appear in the generated dir Env1_BoxNet1. For visualize the testing results, set up the Code_dir_path in line2, then run the script:
 
 ```
 python data_visua.py
 ```
-
-The experimental results will appear in the generated dir Env1_BoxNet1.
