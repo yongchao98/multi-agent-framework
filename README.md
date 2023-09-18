@@ -11,7 +11,11 @@ Then you need to get your OpenAI key from https://beta.openai.com/
 Put that OpenAI key starting 'sk-' into the LLM.py, line8
 
 ## Create testing trial environments
+Run the env1_create.py/env2_create.py/env3_create.py/env4_create.py to create the environments, remember change the Code_dir_path in the last lines.
 
+```
+python env1_create.py
+```
 
 ## Usage
 Run the env1-box-arrange.py/env2-box-arrange.py/env3-box-arrange.py/env4-box-arrange.py to test our approaches in different frameworks and dialogue history methods. In around Line270, set up the models(GPT-3/4), frameworks (HMAS-2,HMSA-1, DMAS,CMAS), dialogue history method, and your working path dir. Then run the script:
