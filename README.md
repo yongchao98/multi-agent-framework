@@ -1,5 +1,5 @@
 # Multi-Agent-Framework
-Here we show the two examples on the single-agent environments: Chip Challenge and HouseWorld. The left codes and datasets are coming soon.
+Here we show the related code for the Multi-Agent Framework paper. The code will be updated dynamically in the future. The 
 
 ## Requirements
 Please install the Gurobi optimizer by following the instructions on the official website https://www.gurobi.com/products/gurobi-optimizer/
