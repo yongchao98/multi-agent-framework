@@ -311,7 +311,7 @@ for pg_row_num in [4,6,8,10]:
     print(f'Row num is: {pg_row_num}, Iteration num is: {iteration_num}\n\n')
 
     user_prompt_list, response_total_list, pg_state_list, success_failure, index_query_times, token_num_count_list, Saving_path_result = run_exp(Saving_path, pg_row_num, iteration_num, query_time_limit, dialogue_history_method='_w_only_state_action_history',
-            cen_decen_framework='CMAS', model_name = model_name)
+            cen_decen_framework='HMAS-2', model_name = model_name)
     with open(Saving_path_result + '/token_num_count.txt', 'w') as f:
       for token_num_num_count in token_num_count_list:
         f.write(str(token_num_num_count) + '\n')
