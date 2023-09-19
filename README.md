@@ -33,3 +33,9 @@ The experimental results will appear in the generated dir Env1_BoxNet1. For visu
 ```
 python data_visua.py
 ```
+
+## Recommended Work
+
+[AutoTAMP: Autoregressive Task and Motion Planning with LLMs as Translators and Checkers](https://arxiv.org/pdf/2306.06531.pdf)
+
+[Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?](https://yongchao98.github.io/MIT-REALM-Multi-Robot/)
