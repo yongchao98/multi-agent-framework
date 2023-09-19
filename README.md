@@ -1,7 +1,9 @@
 # Multi-Agent-Framework
 Here we show the related code for the Multi-Agent Framework paper. The code will be updated dynamically in the future. There are in total four environments, corresponding to BoxNet1, BoxNet2, BoxLift, and Warehouse, respectively.
 
-<img src="Github-figures/main_figure.png" alt="Main image" width="75%"/>
+<div align="center">
+    <img src="Github-figures/main_figure.png" alt="Main image" width="75%"/>
+</div>
 
 ## Requirements
 Please install the following Python packages.
