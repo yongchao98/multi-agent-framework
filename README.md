@@ -1,4 +1,4 @@
-# Multi-Agent-Framework ([Website](https://yongchao98.github.io/MIT-REALM-Multi-Robot/))
+# Multi-Agent-Framework ([Website](https://yongchao98.github.io/MIT-REALM-Multi-Robot/), ICRA 2024)
 Here we show the related code for the Multi-Agent Framework paper. The code will be updated dynamically in the future. There are in total four environments, corresponding to BoxNet1, BoxNet2, BoxLift, and Warehouse, respectively.
 
 <div align="center">
