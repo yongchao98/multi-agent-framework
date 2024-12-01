@@ -1,5 +1,5 @@
 from LLM import *
-from prompt_env3 import *
+from prompt_env5 import *
 from env3_create import *
 from sre_constants import error
 import random
@@ -52,6 +52,23 @@ def run_exp(Saving_path, pg_row_num, iteration_num, query_time_limit, dialogue_h
   for index_query_times in range(query_time_limit): # The upper limit of calling LLMs
     state_update_prompt, left_box = state_update_func(pg_dict, lifter_weight_list)
     left_box_list.append(left_box)
+       # 动态调整任务优先级
+    feedback = {
+        "explore": {"urgent": True, "time_limit": 5},
+        "transport": {"urgent": False, "time_limit": 10},
+        "cover": {"urgent": False, "time_limit": 3},
+    }
+    task_priorities = adjust_task_priorities(state_update_prompt, feedback)
+    
+    print(f"Adjusted task priorities: {task_priorities}")
+
+    # 基于动态优先级构建用户提示
+    user_prompt_1 = input_prompt_1_func(state_update_prompt, feedback)
+    user_prompt_list.append(user_prompt_1)
+
+    # 保存提示到文件
+    with open(Saving_path_result + '/prompt' + f'/user_prompt_{index_query_times + 1}.txt', 'w') as f:
+        f.write(user_prompt_list[-1])
     if cen_decen_framework in ('DMAS'):
       print('--------DMAS method starts--------')
       match = None
